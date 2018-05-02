@@ -1,6 +1,7 @@
 'use strict';
 
-var $ = require('jquery');
+import $ from 'jquery';
+import io from 'socket.io-client';
 
 console.log("hello world");
 console.log($.fn.jquery);
